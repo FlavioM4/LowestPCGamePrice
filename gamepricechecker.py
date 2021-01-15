@@ -14,9 +14,10 @@ def getPage(gameName):
 			print("The lowest price you can get, right now is: "+ priceTag[0])
 		else:
 			print("Something wrong just happened, try again")
-			input()
+			inputName()
 	except:
 		print("Problem getting the page, please check your internet connection")
+		inputName()
 	
 
 def normalizeName(game):
